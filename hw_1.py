@@ -37,12 +37,12 @@ class Car:
 
 # Задание 1
 fruit1 = Fruits("Яблоко", "Красное", 150)
-fruit2 = Fruits("Груша", "Желтая", 200)
+fruit2 = Fruits("Груша", "Желтая", 300)
 fruit3 = Fruits("Апельсин", "Оранжевый", 180)
 
 fruit1.info()
 fruit2.info()
-fruit3.info()
+
 
 # Задание 2
 car1 = Car("Toyota Camry", 2022, "Серый")
@@ -54,3 +54,4 @@ car1.drive_distance("Санкт-Петербург", 500)
 car2 = Car("BMW X5", 2023, "Черный")
 car2.refuel(50)
 car2.drive_distance("Новосибирск", 1500)
+print("Hellow world")
